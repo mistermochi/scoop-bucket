@@ -1,5 +1,6 @@
 {
     "description": "PokeWilds - A Gen 2 Game/Engine using libGDX",
+    "version":  "v0.8.11",
     "homepage": "https://github.com/SheerSt/pokewilds",
     "architecture": {
         "64bit": {

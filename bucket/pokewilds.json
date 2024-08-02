@@ -1,0 +1,31 @@
+{
+    "description": "PokeWilds - A Gen 2 Game/Engine using libGDX",
+    "homepage": "https://github.com/SheerSt/pokewilds",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/SheerSt/pokewilds/releases/download/v0.8.11/pokewilds-windows64.zip",
+    	    "extract_dir": "pokewilds-v0.8.11-windows-64",
+        }
+    },
+    "shortcuts": [
+        [
+            "pokewilds.exe",
+            "PokeWilds"
+        ]
+    ],
+    "persist": [
+        "default.sav",
+        "default.sav.zip",
+    ],
+    "checkver": {
+        "github": "https://github.com/SheerSt/pokewilds"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/SheerSt/pokewilds/releases/download/$version/pokewilds-windows64.zip",
+    	        "extract_dir": "pokewilds-$version-windows-64",
+            }
+        }
+    }
+}
